@@ -13,6 +13,6 @@ Length of shorter sequence:
 5. `U' frequencies of sequence 2
 6. `C' frequencies of sequence 2
 
-Here I have trained different support vector machines (SVM) classifiers to determine if a genomic sequence is an ncRNA strand.
+Here I have trained different support vector machine (SVM) classifiers to determine if a genomic sequence is an ncRNA strand.
 
 In file, the data is organised as: label index1:value1 index2:value2... where each line contains a training/test example. label is a bipolar value (1 or -1) indicating the class label (1 indicating an ncRNA, the positive class). Index is an integer in the range [1, 8] corresponding to the 8 features listed above and value is a real number corresponding to a feature value which has been scaled to [0, 1]
