@@ -4,13 +4,14 @@ Classify NRCNA strands using different Support Vector machines and interpret the
 Non-coding ribonucleic acids (ncRNA) are believed to have many roles in a cell, many of which remain to be discovered. However, it is difficult to detect ncRNAs using biochemical screening methods. Recent studies have shown that computational methods can accuractely detect ncRNAs, which can be treated as supervised classification. To perform the classification, an 8-dimensional feature vector is used as input to a classifier, including the length of genomic sequence and nucleotide frequencies:
 
 A feature value computed by the Dynalign algorithm http://www.ncbi.nlm.nih.gov/pubmed/11902836
-Length of shorter sequence
-`A' frequencies of sequence 1
-`U' frequencies of sequence 1
-`C' frequencies of sequence 1
-`A' frequencies of sequence 2
-`U' frequencies of sequence 2
-`C' frequencies of sequence 2
+
+Length of shorter sequence:
+1. `A' frequencies of sequence 1
+2. `U' frequencies of sequence 1
+3. `C' frequencies of sequence 1
+4. `A' frequencies of sequence 2
+5. `U' frequencies of sequence 2
+6. `C' frequencies of sequence 2
 
 Here I have trained different support vector machines (SVM) classifiers to determine if a genomic sequence is an ncRNA strand.
 
