@@ -1,5 +1,5 @@
 # Genomic-Sequence-Analysis-using-SVMs
-Classify NRCNA strands using different Support Vector machines and interpret their behaviour with different regularisation parameters and sigma (gamma) values.
+Classify ncRNA strands using different Support Vector machines and interpret their behaviour with different regularisation parameters and sigma (gamma) values.
 
 Non-coding ribonucleic acids (ncRNA) are believed to have many roles in a cell, many of which remain to be discovered. However, it is difficult to detect ncRNAs using biochemical screening methods. Recent studies have shown that computational methods can accuractely detect ncRNAs, which can be treated as supervised classification. To perform the classification, an 8-dimensional feature vector is used as input to a classifier, including the length of genomic sequence and nucleotide frequencies:
 
